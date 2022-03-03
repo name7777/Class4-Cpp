@@ -1,2 +1,4 @@
 13_strLiteral
 Q1. 왜 []없는 배열을 cout시키면 주소값인가? 원래 그런가?
+
+vscode 빌드는 gcc인가?

@@ -1,3 +1,4 @@
+// VSC에선 실행안됨 (strcpy 문제)
 #include <iostream>
 #include "header.h"
 

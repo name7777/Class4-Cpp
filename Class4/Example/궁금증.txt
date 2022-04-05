@@ -1,9 +1,9 @@
 13_strLiteral
 Q. 왜 []없는 배열을 cout시키면 주소값인가? 원래 그런가?
 
-16_voidPointer
+15_voidPointer
 Q. void는 원하는 type으로 변환 가능하다는 예제인건가? (char*), (int*)
 
-17_dynamicMemory
+16_dynamicMemory
 Q. ptrInt = NULL이라고 해서 ptrInt가 NULL로 존재는 하는 거 아님? 그 주소값만 NULL인거지? 아니면 완전히 ptrInt을 해제시킨건가? 또는 다른 빈 메모리 (아예 선언도 안된)들은 default가 NULL인건가?
 Q. (void*)변수명 => 이건 void이기 때문에 주소값만 반환하는거임?

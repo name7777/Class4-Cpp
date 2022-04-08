@@ -1,3 +1,11 @@
+<Code Runner g++ 빌드 경로 수정>
+- 목적: 헤더파일 있을 경우 해당 cpp파일 포함하여 빌드하기 위함
+- 경로: 확장-Code Runner 톱니바퀴 - 확장설정 - Code-runner: Executor Map 아래 settings.json에서 편집 클릭
+- 변경사항
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt", // (기본)
+    "cpp": "cd $dir && g++ $fileName class.cpp -o $fileNameWithoutExt && $dir$fileNameWithoutExt", // (+헤더파일, 계속 수정해줘야 함)
+
+
 13_strLiteral
 Q. 왜 []없는 배열을 cout시키면 주소값인가? 원래 그런가?
 

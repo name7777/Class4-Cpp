@@ -5,7 +5,7 @@
 
 int main()
 {
-    CBooks booksObj; // Books란 Class를 booksObj로 치환
+    CBooks booksObj; // CBooks란 Class를 booksObj로 치환
     booksObj.PrintBookInformation(); // 앞에서 constructor로 초기화 된 값이 제일 먼저 출력 됨
 
     booksObj.m_Title = "Learning C++ 21 days";
